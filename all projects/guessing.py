@@ -9,7 +9,7 @@ def guess_number():
 
     while True:
         try:
-            user_guess = int(input("Take a guess: "))
+            user_guess = int(input("41: "))
         except ValueError:
             print("That's not a valid number!")
             continue
